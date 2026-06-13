@@ -17,3 +17,11 @@ An interactive Streamlit app that analyzes a resume against AI and Data career r
 - Data Scientist
 - Machine Learning Engineer
 - Generative AI Engineer
+
+## Upload Resume
+
+![Upload](screenshots/AI-Resume-Analyzer-·-Streamlit-06-12-2026_10_34_PM (1).png)
+
+## Results
+
+![Results](screenshots/AI-Resume-Analyzer-·-Streamlit-06-12-2026_10_34_PM.png)
