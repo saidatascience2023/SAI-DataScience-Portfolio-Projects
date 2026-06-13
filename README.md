@@ -20,7 +20,7 @@ An interactive Streamlit app that analyzes a resume against AI and Data career r
 
 ## Upload Resume
 
-![Upload](images/AI-Resume-Analyzer-·-Streamlit-06-12-2026_10_34_PM (1).png)
+![Upload](images/images/home-screen.png)
 
 ## Results
 
