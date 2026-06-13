@@ -21,7 +21,7 @@ An interactive Streamlit app that analyzes a resume against AI and Data career r
 
 ## Upload Resume
 
-![Upload](images/home-screen.png)
+![Upload](images/home-page.png)
 
 ## Results
 
