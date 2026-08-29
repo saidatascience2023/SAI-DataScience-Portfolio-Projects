@@ -145,8 +145,17 @@ CUSTOM_CSS = """
 <style>
     .stApp { background: #090909; color: #f7f3e8; }
     .block-container { max-width: 1180px; padding-top: 2rem; padding-bottom: 3rem; }
-    h1, h2, h3 { color: #ffffff !important; }
-    [data-testid="stCaptionContainer"] { color: #b8b8b8; }
+    h1, h2, h3, h4 { color: #ffffff !important; }
+    [data-testid="stWidgetLabel"] p,
+    [data-testid="stFileUploader"] label p,
+    .stSelectbox label p {
+        color: #f7f3e8 !important;
+        font-weight: 700 !important;
+    }
+    [data-testid="stCaptionContainer"],
+    [data-testid="stCaptionContainer"] p {
+        color: #b8b8b8 !important;
+    }
     .hero {
         padding: 1.7rem 1.9rem;
         border: 1px solid #d8aa2f;
@@ -194,6 +203,40 @@ CUSTOM_CSS = """
     }
     div[data-testid="stFileUploader"], div[data-baseweb="select"] > div {
         background: #171717;
+    }
+    [data-testid="stFileUploaderDropzone"] {
+        background: #f7f3e8 !important;
+        border: 1px solid #d8aa2f !important;
+    }
+    [data-testid="stFileUploaderDropzone"] div,
+    [data-testid="stFileUploaderDropzone"] span,
+    [data-testid="stFileUploaderDropzone"] small {
+        color: #343434 !important;
+    }
+    [data-testid="stFileUploaderDropzone"] button {
+        background: #d8aa2f !important;
+        color: #111111 !important;
+        border: 0 !important;
+        font-weight: 750 !important;
+    }
+    [data-baseweb="select"] > div,
+    [data-baseweb="select"] input {
+        color: #1f1f1f !important;
+    }
+    [data-testid="stAlert"] {
+        background: #171717 !important;
+        border: 1px solid #d8aa2f !important;
+    }
+    [data-testid="stAlert"] p,
+    [data-testid="stAlert"] div {
+        color: #f7f3e8 !important;
+    }
+    .stButton > button,
+    .stLinkButton > a {
+        background: #d8aa2f !important;
+        color: #111111 !important;
+        border: 1px solid #d8aa2f !important;
+        font-weight: 750 !important;
     }
 </style>
 """
@@ -419,4 +462,3 @@ st.markdown(
     """,
     unsafe_allow_html=True,
 )
-
